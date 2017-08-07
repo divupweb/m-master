@@ -8,53 +8,29 @@
  */
 
 get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-
-			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'm-master' ); ?></h1>
-				</header><!-- .page-header -->
-
-				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'm-master' ); ?></p>
-
-					<?php
-						get_search_form();
-
-						the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'm-master' ); ?></h2>
-						<ul>
-						<?php
-							wp_list_categories( array(
-								'orderby'    => 'count',
-								'order'      => 'DESC',
-								'show_count' => 1,
-								'title_li'   => '',
-								'number'     => 10,
-							) );
-						?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-
-						/* translators: %1$s: smiley */
-						$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'm-master' ), convert_smilies( ':)' ) ) . '</p>';
-						the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-
-						the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+     <div class="not-found not-found_resize">
+      <div class="h-orientation">
+       <div class="not-found__content not-found__content_resize">
+        <span>Произошла ошибка 404</span>
+        <p>
+         Вы попали на страницу ошибки 404, возможной причиной данной ошибки может быть следующее:<br>
+         Страница которую вы пытаетесь найти несуществует;<br>
+         Страница которую вы пытаетесь найти была перенесена навсегда, а возможно временно;<br>
+         Возможно адресс в браузерной строке который вы задали был введен некорректно,проверьте его правильность;<br>
+         Некоторые браузеры чувствительны к вводимому регистру символов в браузерной строке, проверьте правильность регистров;<br>
+         Попробуйте перейти по заданой адресной строке позднее.<br>
+         Если данная проблема для вас является актуальной и постоянной, просьба связаться с нашим оператором для устранения её последующего возникновения, заранее благодарим Вас.<br>
+         С уважением служба поддержки интернет-ресурса!</p>
+       </div>
+       <div class="not-found__image not-found__image_resize"></div>
+        <div class="not-found__page not-found__page_resize">
+         <?php if (have_posts()) : while (have_posts()) : the_post();?>
+          <?php the_content(); ?>
+         <?php endwhile; endif; ?>
+        </div>
+      </div>
+     </div>
+  
 
 <?php
 get_footer();

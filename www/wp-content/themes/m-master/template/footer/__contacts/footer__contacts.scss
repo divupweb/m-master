@@ -1,0 +1,21 @@
+.footer__contacts{
+	a{
+	  background:url("./optimized/img-min/phone-button.png");
+	  width:54px;
+	  height:54px;
+	  display:block;
+	  float:right;
+	  cursor:pointer;
+	  margin-top:15px;
+	}
+	a:hover{
+	 background-position-x:54px;
+	}
+	p{
+	 float:right;
+	 margin-left:10px;
+	 font-family:HelveticaNeueCyr-Light;
+	 font-size:18.12px;
+	 color:#db0303;
+	}
+}

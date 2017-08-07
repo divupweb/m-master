@@ -1,0 +1,18 @@
+@media screen and (max-width: 1100px) {
+  .fifth-block__content_resize {
+    height: auto;
+    padding: 50px 0px;
+    -webkit-background-size: auto auto;
+            background-size: auto auto; } }
+
+@media screen and (max-width: 768px) {
+  .fifth-block__content_resize {
+    font-size: 14px !important;
+    padding: 0px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .fifth-block__content_resize p {
+      padding: 0px 1%; }
+    .fifth-block__content_resize h4 {
+      -webkit-margin-before: 0.5em;
+      -webkit-margin-after: 0em; } }

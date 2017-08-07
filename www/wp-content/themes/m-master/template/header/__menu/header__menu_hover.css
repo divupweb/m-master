@@ -1,0 +1,28 @@
+.header__menu_hover li:hover a {
+  color: #db0303; }
+
+.header__menu_hover a:hover:before {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1); }
+
+.header__menu_hover a:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  -webkit-border-radius: 90px;
+          border-radius: 90px;
+  background: #db0303;
+  position: relative;
+  margin-left: -12px;
+  margin-top: -3px;
+  vertical-align: middle;
+  margin-right: 6px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  line-height: 18px; }

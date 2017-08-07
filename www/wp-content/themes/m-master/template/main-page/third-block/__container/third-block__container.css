@@ -1,0 +1,19 @@
+.third-block__container {
+  float: left;
+  width: 100%;
+  padding: 0px 50px;
+  padding-top: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-background-size: 0px -20px;
+          background-size: 0px -20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 50px;
+  position: relative; }
+  .third-block__container span {
+    font-family: HelveticaNeueCyr-Light;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: #db0303; }

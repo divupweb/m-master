@@ -1,0 +1,64 @@
+@media screen and (max-width: 1024px) {
+  .header__menu_resize li {
+    margin-left: 12px; } }
+
+@media screen and (max-width: 768px) {
+  .header__menu_resize {
+    position: absolute;
+    width: 100%;
+    left: 1000px;
+    margin-top: 86px;
+    text-align: right;
+    z-index: 1;
+    color: white; }
+    .header__menu_resize li {
+      display: block;
+      line-height: 1.5;
+      background: rgba(1, 0, 0, 0.5);
+      width: 100%;
+      left: -3px;
+      margin-left: 0px;
+      border-bottom: 1px solid #f1f1f1; }
+      .header__menu_resize li a {
+        padding-right: 30px;
+        color: white; } }
+
+.show {
+  -webkit-animation: show_menu 1s forwards;
+          animation: show_menu 1s forwards; }
+
+.hide {
+  -webkit-animation: hide_menu 1s forwards;
+          animation: hide_menu 1s forwards; }
+
+@-webkit-keyframes show_menu {
+  0% {
+    left: 100%; }
+  100% {
+    left: 0%;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; } }
+
+@keyframes show_menu {
+  0% {
+    left: 100%; }
+  100% {
+    left: 0%;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; } }
+
+@-webkit-keyframes hide_menu {
+  0% {
+    left: 0%; }
+  100% {
+    left: 100%;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; } }
+
+@keyframes hide_menu {
+  0% {
+    left: 0%; }
+  100% {
+    left: 100%;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; } }

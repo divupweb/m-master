@@ -1,0 +1,36 @@
+.article__page
+{
+    font-family:HelveticaNeueCyr-Light;
+    box-sizing:border-box;
+	h1,h2,h3,h5,h6{
+	   margin-top:70px;
+	   color:#db0303;
+	   font-size:28px;
+	   text-align:center;
+	}
+	p{
+	    -webkit-margin-after: 0em;
+	    -webkit-margin-before: 0em;
+	    font-size:18px;
+	    color:#505050;
+	    text-indent: 39px;
+	}
+	h4{
+	    font-weight:600;
+	    font-size:18px;
+	    -webkit-margin-after: 0em;
+	}
+	table{
+	    border:0.5px solid #505050;
+	    border-spacing:0;
+	    border-collapse: collapse;
+	    margin-top:30px;
+	    td{
+	        border:1px solid #505050;
+	        padding:10px 5px;
+	    }
+	}
+	menu{
+	    margin-top:30px;
+	}
+}

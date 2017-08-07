@@ -1,0 +1,24 @@
+.discounts__content{
+	padding:30px 30px;
+	position:absolute;
+	width:585px;
+	font-family:HelveticaNeueCyr-Light;
+	font-size:18px;
+	background:rgba(255,255,255,0.7);
+	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+	margin-top:60px;
+	box-sizing:border-box;
+	z-index:1;
+	color:#505050;
+	span{
+	 color:#db0303;
+	 font-size:28px;
+	 text-align:center;
+	 display:block;
+	 font-weight:600;
+	}
+	p{
+	 text-indent: 39px;
+	 
+	}
+}

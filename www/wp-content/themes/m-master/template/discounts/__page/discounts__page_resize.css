@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+  .discounts__page_resize {
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 15px; }
+    .discounts__page_resize h1, .discounts__page_resize h2, .discounts__page_resize h3, .discounts__page_resize h4, .discounts__page_resize h5, .discounts__page_resize h6 {
+      font-size: 20px !important; } }

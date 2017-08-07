@@ -1,0 +1,16 @@
+.discounts__page {
+  font-family: HelveticaNeueCyr-Light;
+  margin-top: 70px; }
+  .discounts__page h1, .discounts__page h2, .discounts__page h3, .discounts__page h4, .discounts__page h5, .discounts__page h6 {
+    margin-top: 70px;
+    color: #db0303;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center; }
+  .discounts__page p {
+    -webkit-margin-after: 0em;
+    -webkit-margin-before: 0em;
+    font-size: 18px;
+    color: #505050;
+    font-weight: 600;
+    text-indent: 39px; }

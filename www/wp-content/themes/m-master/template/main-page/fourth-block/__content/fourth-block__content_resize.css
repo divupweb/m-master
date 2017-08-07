@@ -1,0 +1,15 @@
+@media screen and (max-width: 1295px) {
+  .fourth-block__content_resize {
+    margin-left: 25%; } }
+
+@media screen and (max-width: 1024px) {
+  .fourth-block__content_resize {
+    margin-left: 10%; } }
+
+@media screen and (max-width: 768px) {
+  .fourth-block__content_resize {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    padding: 10px 10px;
+    position: relative; } }

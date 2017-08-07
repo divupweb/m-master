@@ -1,0 +1,5 @@
+.first-block__href_hover:hover {
+  background: #e34b4c;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }

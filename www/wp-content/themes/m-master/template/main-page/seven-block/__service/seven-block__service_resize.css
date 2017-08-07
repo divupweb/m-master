@@ -1,0 +1,5 @@
+@media screen and (max-width: 425px) {
+  .seven-block__service_resize {
+    width: 100%; }
+  .under-text {
+    height: auto; } }

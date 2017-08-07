@@ -1,0 +1,57 @@
+.nineth-block {
+  margin-top: 70px;
+  padding: 70px 0;
+  float: left;
+  font-family: HelveticaNeueCyr-Roman;
+  text-align: center;
+  padding: 0px 7.3%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("./optimized/img-min/nineth-block.jpg") no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+  box-sizing: border-box;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none; }
+  .nineth-block h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #db0303;
+    -webkit-margin-after: 0em; }
+  .nineth-block p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #505050;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em; }
+  .nineth-block input {
+    margin-top: 10px;
+    height: 35px;
+    width: 305px;
+    padding-left: 12px;
+    font-family: HelveticaNeueCyr-UltraLightItalic;
+    font-size: 14px; }
+  .nineth-block button {
+    font-size: 14.5px;
+    text-decoration: none;
+    color: white;
+    background: #d13a3a;
+    padding: 15px 25px;
+    -webkit-border-radius: 90px;
+            border-radius: 90px;
+    border: 3px solid white;
+    -webkit-box-shadow: 0 0 10px 5px #ddd;
+            box-shadow: 0 0 10px 5px #ddd;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px; }
+  .nineth-block button:hover {
+    background: #e34b4c;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }

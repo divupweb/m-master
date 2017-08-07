@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+  .footer_resize {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-background-size: auto 100% !important;
+            background-size: auto 100% !important; }
+    .footer_resize input {
+      width: 90%; } }
+
+@media screen and (max-width: 425px) {
+  .footer_resize {
+    padding-top: 15px !important; } }

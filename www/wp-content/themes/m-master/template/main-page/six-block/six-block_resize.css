@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .six-block_resize {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-background-size: auto 100%;
+            background-size: auto 100%; }
+    .six-block_resize input {
+      width: 90%; } }

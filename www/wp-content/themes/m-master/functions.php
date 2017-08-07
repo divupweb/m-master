@@ -43,9 +43,10 @@ if ( ! function_exists( 'm_master_setup' ) ) :
 		add_theme_support( 'post-thumbnails' );
 
 		// This theme uses wp_nav_menu() in one location.
-		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'm-master' ),
-		) );
+	   register_nav_menus( array(
+		'primary' => esc_html__( 'Primary', 'm-master' ),
+	   ) );
+
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -58,7 +59,7 @@ if ( ! function_exists( 'm_master_setup' ) ) :
 			'gallery',
 			'caption',
 		) );
-
+       
 		// Set up the WordPress core custom background feature.
 		add_theme_support( 'custom-background', apply_filters( 'm_master_custom_background_args', array(
 			'default-color' => 'ffffff',
@@ -128,6 +129,7 @@ function m_master_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'm_master_scripts' );
+
 
 /**
  * Implement the Custom Header feature.

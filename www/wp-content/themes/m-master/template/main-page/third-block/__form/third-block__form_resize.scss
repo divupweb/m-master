@@ -1,0 +1,17 @@
+@media screen and (max-width:1024px){
+    .third-block__form_resize{
+        margin-top:0px;
+	    width:100%;
+	    float:left;
+	    box-sizing:border-box;
+	    position:inherit;
+	    right:0px;
+} 
+}
+@media screen and (max-width:425px){
+.third-block__form_resize{
+  select{
+        font-size:12px;
+  } 
+}
+}

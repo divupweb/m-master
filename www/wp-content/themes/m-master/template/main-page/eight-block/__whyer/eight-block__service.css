@@ -1,0 +1,14 @@
+.eight-block__whyer {
+  width: 250px;
+  height: 350px;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 30px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: top;
+  -webkit-box-shadow: 0 0 10px 5px #dddddd;
+          box-shadow: 0 0 10px 5px #dddddd;
+  margin: 25px; }
+  .eight-block__whyer p {
+    margin-top: 30px; }

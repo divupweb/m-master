@@ -1,0 +1,12 @@
+@media screen and (max-width: 1366px) {
+  .first-block_resize {
+    -webkit-background-size: auto auto;
+            background-size: auto auto; } }
+
+@media screen and (max-width: 1024px) {
+  .first-block_resize {
+    padding: 100px 40px; } }
+
+@media screen and (max-width: 768px) {
+  .first-block_resize {
+    padding: 5% 0%; } }

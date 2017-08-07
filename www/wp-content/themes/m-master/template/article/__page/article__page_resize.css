@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .article__page_resize {
+    width: 100%;
+    padding: 10px 10px; }
+    .article__page_resize h1, .article__page_resize h2, .article__page_resize h3, .article__page_resize h4, .article__page_resize h5, .article__page_resize h6 {
+      font-size: 20px !important; } }

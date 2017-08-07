@@ -1,0 +1,90 @@
+.third-block__form {
+  width: 30%;
+  margin-top: 20px;
+  float: right;
+  text-align: center;
+  font-family: HelveticaNeueCyr-Light;
+  background: white;
+  -webkit-box-shadow: 0 0 10px 5px #dddddd;
+          box-shadow: 0 0 10px 5px #dddddd;
+  padding: 30px;
+  position: absolute;
+  right: 30px; }
+  .third-block__form span {
+    color: #db0303;
+    font-size: 20px;
+    font-weight: 600; }
+  .third-block__form .span-1 {
+    font-family: HelveticaNeueCyr-Roman;
+    -webkit-margin-before: 0em; }
+  .third-block__form .span-2 {
+    font-family: HelveticaNeueCyr-Light;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em; }
+  .third-block__form input {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 35px;
+    padding-left: 10px;
+    font-family: HelveticaNeueCyr-UltraLightItalic;
+    font-size: 14px;
+    color: #505050;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .third-block__form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    resize: none;
+    height: 130px;
+    padding-left: 10px;
+    font-family: HelveticaNeueCyr-UltraLightItalic;
+    font-size: 14px;
+    color: #505050;
+    padding-top: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .third-block__form div {
+    width: 33%;
+    float: left;
+    font-family: HelveticaNeueCyr-UltraLightItalic;
+    padding-bottom: 20px;
+    font-size: 14px; }
+    .third-block__form div option {
+      height: 30px; }
+  .third-block__form button {
+    font-size: 14.5px;
+    text-decoration: none;
+    color: white;
+    background: #d13a3a;
+    padding: 5px 10px;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+    border: 3px solid white;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px 5px #dddddd;
+            box-shadow: 0 0 10px 5px #dddddd;
+    width: 150px; }
+  .third-block__form button:hover {
+    background: #e34b4c;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  .third-block__form select {
+    font-size: 16px;
+    font-family: HelveticaNeueCyr-Light;
+    color: #505050;
+    cursor: pointer;
+    height: 33px;
+    border: 1px solid #505050;
+    -ms-appearance: none;
+    appearance: none !important;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("./optimized/img-min/select-button.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    width: 95%; }

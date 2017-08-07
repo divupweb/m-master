@@ -1,34 +1,25 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package m-master
- */
-
-?>
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'm-master' ) ); ?>"><?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'm-master' ), 'WordPress' );
-			?></a>
-			<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'm-master' ), 'm-master', '<a href="http://underscores.me/">Underscores.me</a>' );
-			?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
+<footer class="footer footer_resize">
+ <div class="h-orientation">
+  <div class="footer__logotype"><img src="<?php bloginfo("template_directory");?>/optimized/img-min/logotype.png" alt="logotype"></div>
+  <div class="footer__contacts footer__contacts_resize">
+   <div style="float:right;">
+   <?php echo category_description(5)?>
+   <a href="#win1"></a></div>
+  </div>
+  <div style="clear:both"></div>
+  <div class="footer-align">
+   <form id="form_4">
+    <input name="name" placeholder="Имя" required>
+    <input name="phone" placeholder="Номер" required>
+    <button>Заказать звонок</button>
+   </form>
+   <copyrights><span>©2016 М-МАСТЕР  |</span>  Разработка сайта ООО “Восточные технологии” <img src="<?php bloginfo("template_directory");?>/optimized/img-min/east-tech-logo.png" alt="east-tech-logo"></copyrights>
+  </div>
+ </div>
+</footer>
 <?php wp_footer(); ?>
-
+</div>
+</div>
+<script src="<?php bloginfo("template_directory");?>/optimized/js-min/main.min.js"></script>
 </body>
 </html>

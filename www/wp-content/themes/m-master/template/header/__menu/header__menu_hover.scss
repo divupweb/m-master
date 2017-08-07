@@ -1,0 +1,22 @@
+.header__menu_hover li:hover a{
+	color:#db0303;
+}
+.header__menu_hover a:hover:before{
+	transform: scale(1);
+}
+.header__menu_hover a:before{
+	content: "";
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius:90px;
+    background: #db0303;
+    position: relative;
+    margin-left: -12px;
+    margin-top:-3px;
+    vertical-align: middle;
+    margin-right: 6px;
+    transition: 0.3s;
+    transform: scale(0);
+    line-height:18px;
+}

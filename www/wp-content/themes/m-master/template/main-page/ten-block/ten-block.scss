@@ -1,0 +1,98 @@
+.ten-block{
+	float:left;
+	width:100%;
+	padding:0 7.3%;
+	text-align:center;
+	box-sizing:border-box;
+	-ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+   	h3{
+	    font-size:28px;
+	    font-weight:600;
+	    color:#db0303;
+	    -webkit-margin-before: 2em;
+	    -webkit-margin-after: 0em;
+	    font-family:HelveticaNeueCyr-Light;
+	    font-weight:600;
+	}
+}
+.metaslider{
+	float:right;
+	clear:both;
+	margin-top:30px;
+	margin-right:50px;
+}
+.rslides{
+	 overflow:visible !important;
+}
+.caption-wrap{
+	    font-size:16px !important;
+	    background:white !important;
+	    color:#505050 !important;
+	    opacity:1 !important;
+	    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+	    font-family:HelveticaNeueCyr-Light !important;
+	    text-align:left !important;
+	    font-weight:600 !important;
+	    left:-400px !important;
+	    bottom:75px !important;
+	    width:480px !important;
+	    height:inherit !important;
+	    padding:50px 30px;
+	    box-sizing:border-box !important;
+	    span{
+	        display:block !important;
+	        text-align:center !important;
+	        font-size:22px !important;
+	        font-weight:700 !important;
+	    }
+}       
+.rslides_nav{
+	    background-color:transparent!important;
+	    color:#505050 !important;
+	    font-size:120px !important;
+	    font-family:Lloyd !important;
+	    font-weight:600 !important;
+	    top:35% !important;
+}
+.rslides_nav.prev{
+	left:-460px !important;
+}
+.rslides_nav.next{
+	right:-60px !important;
+}
+.rt-wpls .slick-prev{
+	z-index:1;
+	left:0!important;
+}
+.rt-wpls .slick-next{
+	right:-15px !important;
+}
+.rt-wpls .slick-next::before {
+    content: ">";
+    opacity: 1 !important;
+    color:#505050 !important;
+    font-size:72px !important;
+    font-weight:600 !important;
+    font-family:Lloyd !important;
+
+}
+.rt-wpls .slick-prev, .rt-wpls .slick-next{
+	border-radius:0 !important;
+	color:#505050 !important;
+	background:transparent !important;
+	width:auto !important;
+	height: auto !important;
+}
+.rt-wpls .slick-prev:before{
+	content:"<" !important;
+	color:#505050;
+	font-size:72px !important;
+	font-weight:600 !important;
+	font-family:Lloyd !important;
+}
+.slick-arrow{
+	top:55% !important;
+}

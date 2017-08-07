@@ -1,0 +1,40 @@
+.fifth-block__selector{
+    width:38%;
+    box-sizing:border-box;
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    display:table-cell;
+    vertical-align:middle;
+    ul{
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+
+    }
+    input{
+         display:none;
+    }
+	label{
+	   text-align:left;
+	   font-size:22px;
+	   font-color:#505050;
+	   font-family:HelveticaNeueCyr-Light;
+	   fint-weight:600;
+	   list-style:none;
+	   line-height:3;
+	   border-bottom:1px solid #cccccc;
+	   background:#ebebeb;
+	   padding:0px 30px;
+	   color:#505050;
+	   cursor:pointer;
+	   display:block;
+	   transition: all 0.5s ease;
+	}
+    label:hover {
+       background:#fff;
+    }
+    input:checked + label{
+       background: #fff;
+    }
+}

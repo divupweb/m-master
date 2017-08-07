@@ -1,0 +1,21 @@
+.first-block{
+	background:url("./optimized/img-min/first-block.jpg") no-repeat;
+	background-size: 100% auto;
+	width:100%;
+	padding: 220px 7.3%;
+	font-size:34px;
+	text-align:center;
+	-ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    box-sizing:border-box;
+	span{
+	   color:#db0303;
+	}
+}
+.h-orientation{
+	max-width:1370px;
+	margin:0 auto;
+	overflow:hidden;
+}

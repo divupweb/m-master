@@ -1,0 +1,22 @@
+.first-block__circle{
+	background:url("./optimized/img-min/first-block__circle.png");
+	width:451px;
+	height:451px;
+	display:table;
+	font-family:HelveticaNeueCyr-Roman;
+	box-sizing:border-box;
+	p {
+	  display:table-cell;
+	  vertical-align:middle;
+	  padding:0px 50px;
+	}
+	a{
+	   font-size:14.5px;
+	   text-decoration:none;
+	   color:white;
+	   background:#d13a3a;
+	   padding:5px 10px;
+	   border-radius:20px;
+	   border:3px solid white;
+	}
+}

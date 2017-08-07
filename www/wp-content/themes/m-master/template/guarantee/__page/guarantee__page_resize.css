@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .guarantee__page_resize {
+    width: 100%;
+    padding: 10px 10px; }
+    .guarantee__page_resize h1, .guarantee__page_resize h2, .guarantee__page_resize h3, .guarantee__page_resize h4, .guarantee__page_resize h5, .guarantee__page_resize h6 {
+      font-size: 20px !important; } }

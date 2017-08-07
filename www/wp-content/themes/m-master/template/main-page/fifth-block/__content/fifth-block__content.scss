@@ -1,0 +1,48 @@
+.fifth-block__content{
+	height:493px;
+	box-shadow: 0 0 10px 8px rgba(221, 221, 221, 1);
+	background-image:url("./optimized/img-min/ne-slivaet-vodu.jpg");
+	background-size:100% 100%;
+	font-family:HelveticaNeueCyr-Light;
+	font-size:16px;
+	color:#505050;
+	box-sizing:border-box;
+	font-weight:600;
+	display:table-cell;
+	vertical-align:middle;
+	margin-right:8px;
+	h4{
+	   font-size:20px;
+	   color:#db0303;
+	}
+	p{
+	    text-align:left;
+	    padding:0px 12%;
+	}
+	div{
+	    display:table-cell;
+	    vertical-align:middle;
+	}
+	section{
+	   -webkit-animation-duration: 1s;
+	   animation-duration: 1s;
+	   -webkit-animation-name: fadeIn;
+	   animation-name: fadeIn;
+	   animation-fill-mode: both;
+	   display:none;
+    }
+    section:nth-child(5){
+       display:block;
+    }
+}
+@keyframes fadeIn
+{
+0%
+{
+    opacity: 0;
+}
+100%
+{ 
+	opacity: 1;
+}
+}
