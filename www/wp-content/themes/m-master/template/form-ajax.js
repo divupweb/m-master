@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$("#form_1").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "wp-content/themes/m-master/modules/mail.php",
+			url: "/wp-content/themes/m-master/modules/mail.php",
 			data: $(this).serialize()
 		}).done(function() {
 			$(this).find("input").val("");
@@ -15,7 +15,7 @@ $(document).ready(function() {
 	$("#form_2").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "wp-content/themes/m-master/modules/mail_2.php",
+			url: "/wp-content/themes/m-master/modules/mail_2.php",
 			data: $(this).serialize()
 		}).done(function() {
 			$(this).find("input").val("");
@@ -28,7 +28,7 @@ $(document).ready(function() {
 	$("#form_3").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "wp-content/themes/m-master/modules/mail.php",
+			url: "/wp-content/themes/m-master/modules/mail.php",
 			data: $(this).serialize()
 		}).done(function() {
 			$(this).find("input").val("");
@@ -41,7 +41,7 @@ $(document).ready(function() {
 	$("#form_4").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "wp-content/themes/m-master/modules/mail.php",
+			url: "/wp-content/themes/m-master/modules/mail.php",
 			data: $(this).serialize()
 		}).done(function() {
 			$(this).find("input").val("");

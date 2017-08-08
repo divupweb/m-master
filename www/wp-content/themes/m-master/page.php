@@ -1,7 +1,8 @@
-<?php get_header(); ?>
 <?php 
+ session_start(); 
  $_SESSION['e-mail'] = category_description(7); 
 ?>
+<?php get_header(); ?>
 <?php if (get_the_ID()=='2'): ?>
  <div style="clear:both"></div>
  <div class="first-block first-block_resize">

@@ -1,7 +1,7 @@
 .guarantee__page
 {
     font-family:HelveticaNeueCyr-Light;
-
+    box-sizing:border-box;
 	h1,h2,h3,h4,h5,h6{
 	   margin-top:70px;
 	   color:#db0303;
@@ -14,7 +14,6 @@
 	    -webkit-margin-before: 0em;
 	    font-size:18px;
 	    color:#505050;
-	    font-weight:600;
 	    text-indent: 39px;
 	}
 }

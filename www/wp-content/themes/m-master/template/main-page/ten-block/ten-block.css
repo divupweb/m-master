@@ -32,8 +32,8 @@
   background: white !important;
   color: #505050 !important;
   opacity: 1 !important;
-  -webkit-box-shadow: 0 0 10px 5px #dddddd;
-          box-shadow: 0 0 10px 5px #dddddd;
+  -webkit-box-shadow: 0px 0px 26.88px 5.12px rgba(0, 0, 0, 0.29);
+          box-shadow: 0px 0px 26.88px 5.12px rgba(0, 0, 0, 0.29);
   font-family: HelveticaNeueCyr-Light !important;
   text-align: left !important;
   font-weight: 600 !important;
@@ -56,7 +56,8 @@
   font-size: 120px !important;
   font-family: Lloyd !important;
   font-weight: 600 !important;
-  top: 35% !important; }
+  top: 35% !important;
+  text-shadow: 0px 0px 1px #505050; }
 
 .rslides_nav.prev {
   left: -460px !important; }
@@ -77,7 +78,8 @@
   color: #505050 !important;
   font-size: 72px !important;
   font-weight: 600 !important;
-  font-family: Lloyd !important; }
+  font-family: Lloyd !important;
+  text-shadow: 0px 0px 1px #505050; }
 
 .rt-wpls .slick-prev, .rt-wpls .slick-next {
   -webkit-border-radius: 0 !important;
@@ -92,7 +94,8 @@
   color: #505050;
   font-size: 72px !important;
   font-weight: 600 !important;
-  font-family: Lloyd !important; }
+  font-family: Lloyd !important;
+  text-shadow: 0px 0px 1px #505050; }
 
 .slick-arrow {
   top: 55% !important; }

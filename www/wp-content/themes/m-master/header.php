@@ -27,22 +27,21 @@
       font-weight: normal;
     }
     @font-face {
-      font-family: 'HelveticaNeueCyr-UltraLightItalic';
-      src: url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-UltraLightItalic.eot');
-      src: url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
-         url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-UltraLightItalic.woff') format('woff'),
-         url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-UltraLightItalic.ttf') format('truetype'),
-         url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-UltraLightItalic.svg#FontName') format('svg');
+      font-family: 'HelveticaNeueCyr-Italic';
+      src: url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-Italic.eot');
+      src: url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-Italic.eot?#iefix') format('embedded-opentype'),
+         url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-Italic.woff') format('woff'),
+         url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-Italic.ttf') format('truetype'),
+         url('<?php bloginfo("template_directory");?>/fonts/HelveticaNeueCyr-Italic.svg#FontName') format('svg');
       font-style: normal;
       font-weight: normal;
     }
     @font-face {
       font-family: 'Lloyd';
-      src: url('<?php bloginfo("template_directory");?>/fonts/Lloyd.eot');
-      src: url('<?php bloginfo("template_directory");?>/fonts/Lloyd?#iefix') format('embedded-opentype'),
-         url('<?php bloginfo("template_directory");?>/fonts/Lloyd.woff') format('woff'),
-         url('<?php bloginfo("template_directory");?>/fonts/Lloyd.ttf') format('truetype'),
-         url('<?php bloginfo("template_directory");?>/fonts/Lloyd.svg#FontName') format('svg');
+      src: url("<?php bloginfo("template_directory");?>/fonts/Lloyd.eot");
+      src: url("<?php bloginfo("template_directory");?>/fonts/Lloyd.eot?#iefix")format("embedded-opentype"),
+           url("<?php bloginfo("template_directory");?>/fonts/Lloyd.woff") format("woff"),
+           url("<?php bloginfo("template_directory");?>/fonts/Lloyd.ttf") format("truetype");
       font-style: normal;
       font-weight: normal;
     }
@@ -57,8 +56,8 @@
       <div class="header__logotype"><img src="<?php bloginfo("template_directory");?>/optimized/img-min/logotype.png" alt="logotype"></div>
       <?php wp_nav_menu(array('theme_location'=>'primary', 'menu_class'=>'header__menu header__menu_hover header__menu_resize', ));?>
       <div class="header__contacts header__contacts_resize">
-       <?php echo category_description(5)?>
        <a href="#win1"></a>
+       <?php echo category_description(5)?>
       </div>
      </header>
      <div class="dm-overlay" id="win1" onclick="location.href='#close'">

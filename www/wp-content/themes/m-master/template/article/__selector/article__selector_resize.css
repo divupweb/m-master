@@ -2,3 +2,7 @@
   .article__selector label {
     line-height: 1.5;
     font-size: 18px; } }
+
+@media screen and (max-width: 768px) {
+  .article__selector section, .article__selector p {
+    font-size: 12px; } }

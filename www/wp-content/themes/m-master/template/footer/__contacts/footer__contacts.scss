@@ -4,18 +4,22 @@
 	  width:54px;
 	  height:54px;
 	  display:block;
-	  float:right;
 	  cursor:pointer;
 	  margin-top:15px;
+	  display:table-cell;
+	  vertical-align:middle;
 	}
 	a:hover{
 	 background-position-x:54px;
 	}
 	p{
-	 float:right;
 	 margin-left:10px;
 	 font-family:HelveticaNeueCyr-Light;
 	 font-size:18.12px;
 	 color:#db0303;
+	 display:table-cell;
+	 vertical-align:middle;
+	 font-weight:600;
+	 padding-left:15px;
 	}
 }

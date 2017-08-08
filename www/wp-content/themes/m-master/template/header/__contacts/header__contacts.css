@@ -1,18 +1,23 @@
-.header__contacts a {
-  background: url("./optimized/img-min/phone-button.png");
-  width: 54px;
-  height: 54px;
-  display: block;
-  float: right;
-  cursor: pointer;
-  margin-top: 15px; }
-
-.header__contacts a:hover {
-  background-position-x: 54px; }
-
-.header__contacts p {
-  float: right;
-  margin-left: 10px;
-  font-family: HelveticaNeueCyr-Light;
-  font-size: 18.12px;
-  color: #db0303; }
+.header__contacts {
+  display: table;
+  margin-top: 15px;
+  float: right; }
+  .header__contacts a {
+    background: url("./optimized/img-min/phone-button.png");
+    width: 54px;
+    height: 54px;
+    display: block;
+    cursor: pointer;
+    margin-top: 15px;
+    display: table-cell;
+    vertical-align: middle; }
+  .header__contacts a:hover {
+    background-position-x: 54px; }
+  .header__contacts p {
+    padding-left: 15px;
+    font-family: HelveticaNeueCyr-Light;
+    font-size: 18.12px;
+    color: #db0303;
+    font-weight: 600;
+    display: table-cell;
+    vertical-align: middle; }

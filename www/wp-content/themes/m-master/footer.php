@@ -2,9 +2,10 @@
  <div class="h-orientation">
   <div class="footer__logotype"><img src="<?php bloginfo("template_directory");?>/optimized/img-min/logotype.png" alt="logotype"></div>
   <div class="footer__contacts footer__contacts_resize">
-   <div style="float:right;">
-   <?php echo category_description(5)?>
-   <a href="#win1"></a></div>
+   <div style="float:right;dispaly:table;">
+    <a href="#win1"></a>
+    <?php echo category_description(5)?>
+   </div>
   </div>
   <div style="clear:both"></div>
   <div class="footer-align">

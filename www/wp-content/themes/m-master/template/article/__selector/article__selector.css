@@ -19,7 +19,7 @@
     line-height: 3;
     border: 1px solid #cccccc;
     background: #ebebeb;
-    padding: 0px 30px;
+    padding: 0px 20px;
     color: #505050;
     cursor: pointer;
     display: block;
@@ -38,7 +38,10 @@
     border: 1px solid #cccccc;
     border-top: 0px;
     padding: 20px 0px;
-    padding-left: 30px;
-    display: none; }
+    padding-left: 20px;
+    padding-right: 10px;
+    display: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
     .article__selector section p {
       text-indent: 0px; }

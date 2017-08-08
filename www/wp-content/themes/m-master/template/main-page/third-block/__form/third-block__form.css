@@ -5,8 +5,8 @@
   text-align: center;
   font-family: HelveticaNeueCyr-Light;
   background: white;
-  -webkit-box-shadow: 0 0 10px 5px #dddddd;
-          box-shadow: 0 0 10px 5px #dddddd;
+  -webkit-box-shadow: 0px 0px 24.07px 4.93px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 24.07px 4.93px rgba(0, 0, 0, 0.4);
   padding: 30px;
   position: absolute;
   right: 30px; }
@@ -28,7 +28,7 @@
     margin-bottom: 15px;
     height: 35px;
     padding-left: 10px;
-    font-family: HelveticaNeueCyr-UltraLightItalic;
+    font-family: HelveticaNeueCyr-Italic;
     font-size: 14px;
     color: #505050;
     -webkit-box-sizing: border-box;
@@ -39,7 +39,7 @@
     resize: none;
     height: 130px;
     padding-left: 10px;
-    font-family: HelveticaNeueCyr-UltraLightItalic;
+    font-family: HelveticaNeueCyr-Italic;
     font-size: 14px;
     color: #505050;
     padding-top: 5px;
@@ -48,7 +48,7 @@
   .third-block__form div {
     width: 33%;
     float: left;
-    font-family: HelveticaNeueCyr-UltraLightItalic;
+    font-family: HelveticaNeueCyr-Italic;
     padding-bottom: 20px;
     font-size: 14px; }
     .third-block__form div option {
@@ -84,7 +84,14 @@
     appearance: none !important;
     -moz-appearance: none;
     -webkit-appearance: none;
+    -o-appearance: none;
     background-image: url("./optimized/img-min/select-button.jpg");
     background-position: right center;
     background-repeat: no-repeat;
-    width: 95%; }
+    width: 95%;
+    text-align: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
+    padding-right: 35px; }
+  .third-block__form select::-ms-expand {
+    display: none; }
